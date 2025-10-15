@@ -23,7 +23,7 @@ header {
     backdrop-filter: blur(6px);      /* efecto glass */
     padding: 15px 30px; /* Espaciado interno para los elementos del encabezado. */
     display: flex; /* Utiliza diseño flexible para organizar los elementos horizontalmente. */
-    justify-content: space-between; /* Distribuye los elementos en extremos opuestos. */
+    justify-content: center; /* Distribuye los elementos en extremos opuestos. */
     align-items: center; /* Centra verticalmente */
     z-index: 1000; /* Asegura que el encabezado esté siempre encima de otros elementos. */
     transition: all 0.3s ease; /* Transición suave para cambios */
@@ -39,7 +39,7 @@ header.scrolled {
 nav {
     display: flex ;
     margin-top: 8px;
-    margin-left: 250px;
+    /* margin-left: 250px; */
     
 }
 
